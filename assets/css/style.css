@@ -4292,3 +4292,11 @@ img.mfp-img {
   background-position: center center;
   background-size: 100% 100%; /* Largeur et hauteur de l'image en pourcentage */
 }
+
+
+.team.team-8.mb-30:hover h4 {
+  color: white;
+}
+.team.team-8.mb-30:hover p {
+  color: white;
+}
