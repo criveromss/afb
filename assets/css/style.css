@@ -183,12 +183,12 @@ a:focus {
 
 @media only screen and (max-width: 767px) {
   .container {
-    width: 450px;
+    width: 100%;
   }
 }
 @media only screen and (max-width: 479px) {
   .container {
-    width: 300px;
+    width: 100%;
   }
 }
 .bold {
@@ -2050,7 +2050,7 @@ img.mfp-img {
   font-size: 72px;
   font-weight: 700;
   margin-bottom: 10px;
-  color: #ffffff;
+  color: black;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .hero-content h1 {
@@ -4299,4 +4299,10 @@ img.mfp-img {
 }
 .team.team-8.mb-30:hover p {
   color: white;
+}
+
+.missions {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
